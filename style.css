@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1, h2 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+logo {
+    width: 100px;
+    margin-right: 20px; /* Espaço entre a logo e o título */
+}
+.form-container {
+    width: 100%;
+    margin-left: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+}
+select, input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+#campos-ministerio, #campo-cargo {
+    display: none;
+}
+.photo {
+    width: 100px;
+    height: 120px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 120px;
+    font-size: 12px;
+    color: #555;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
